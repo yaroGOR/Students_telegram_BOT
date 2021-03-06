@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import telebot;
-import database;
 import sqlite3;
 import time
 import datetime
