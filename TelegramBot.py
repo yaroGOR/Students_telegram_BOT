@@ -26,7 +26,8 @@ date=datetime.datetime.now()
 
 
 #------Работа бота-------
-bot = telebot.TeleBot('1575787181:AAHglwiHFUMRx593KarTi7vIQXdfroq8pTU');
+bot = telebot.TeleBot('TOKEN');
+#Telegram bot token here
 dic=[]
 #создание нового ученика в базу данных по команте /new, /start и добавление имени, количества уроков, длительности, оплаты в час
 #
