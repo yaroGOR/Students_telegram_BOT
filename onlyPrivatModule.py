@@ -8,9 +8,9 @@ import hashlib
 #========= PrivatBank
 def connectPrivat():
 	urlForPrivat = "https://api.privatbank.ua/p24api/rest_fiz"
-	password = "dx4hL2c9K0U2116gMUlwUNVZ3hP8eLD6"
+	password = "PASSWORD"
 	headers={'Content-Type': 'application/xml; charset=UTF-8'}
-	merchId="182739"
+	merchId="MERCHID"
 	sd="10.10.2020"
 	ed=datetime.date.today().strftime("%d.%m.%Y")
 	head = """<?xml version="1.0" encoding="UTF-8"?><request version="1.0"><merchant><id>"""+merchId+"""</id><signature>"""
